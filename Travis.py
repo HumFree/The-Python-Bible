@@ -16,7 +16,7 @@ while True:
 
         if remove == "y":
             Kwown_users.remove(name)
-            print("I'm sorry to see you go. :(")
+            print("Sorry to see you go. :(")
 
         else:
             print("OK then, You will remain in the system.\n")
@@ -28,3 +28,6 @@ while True:
         if add_user == "y":
             print("OK then, you will be added to the system. Thank you!\n")
             Kwown_users.append(name)
+
+        else:
+            print("Oh well, maybe next time.\n")
